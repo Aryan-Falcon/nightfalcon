@@ -1,0 +1,122 @@
+body{
+  color:#ffffff;
+  background-image: url("../images/background.jpg");
+}
+.theme{
+  text-align:center;
+  color:#a3a3a3;
+  font-size:23px
+}
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+h1{
+  font-size:33px;
+  width:70vw;
+  display:inline-block;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color:#a3a3a3;
+}
+.top{
+  background-image: url("../images/top_background.jpg");
+  background-size:cover;
+  margin:0 auto;
+}
+header{
+  display:inline;
+}
+.bar1, .bar2, .bar3 {
+  width: 10vw;
+  height: 3px;
+  border-radius: 1px;
+  background-color: #333;
+  margin: 1vh;
+}
+div a{
+  font-size: 20px;
+  display:block;
+  text-align: center;
+}
+#Menu{
+  line-height: 400%;
+  position:absolute;
+  top:60px;
+}
+.current{
+  font-weight:bold;
+  font-size:25px;
+}
+.shift{
+  font-size:20px;
+  text-align:center;
+  width:95%;
+  color:#a3a3a3;
+}
+.item1{
+  margin-top:8vh;
+  font-size:21px;
+  position:relative;
+  width:250px;
+  left:5%;
+}
+.item2{
+  margin-top:8vh;
+  font-size:21px;
+  position:relative;
+  left:20%;
+  width:235px;
+}
+.item3{
+  margin-top:8vh;
+  font-size:21px;
+  position:relative;
+  left:10%;
+  width:250px;
+}
+.item4{
+  margin-top:8vh;
+  font-size:21px;
+  position:relative;
+  left:30%;
+  width:200px;
+}
+.item5{
+  margin-top:8vh;
+  font-size:21px;
+  position:relative;
+  left:7%;
+  width:250px;
+}
+.item1, .item2, .item3, .item4, .item5 {
+  margin-right: 0%;
+}
+.item1:hover, .item2:hover, .item3:hover, .item4:hover, .item5:hover {
+  bottom:5px;
+}
+.logo{
+  width:90px;
+  height:80px;
+}
+@media screen and (min-width: 790px){
+  .item1{
+    font-size:30px;
+    left:5%;
+  }
+  .item2{
+    font-size:30px;
+    left:35%;
+  }
+  .item3{
+    font-size:30px;
+    left:15%;
+  }
+  .item4{
+    font-size:30px;
+    left:65%;
+  }
+  .item5{
+    font-size:30px;
+    left:20%;
+  }
+}
